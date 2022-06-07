@@ -173,3 +173,22 @@
     100% {
         transform: rotate(0deg);
     }
+}
+
+/* SOLUTION12 */
+
+.ex-12-button .ex-12-top-white,
+.ex-12-bottom-white {
+    animation-name: button-move;
+    animation-duration: 3s;
+}
+
+@keyframes button-move {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(30deg);
+    }
+}
