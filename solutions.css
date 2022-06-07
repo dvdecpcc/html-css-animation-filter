@@ -37,3 +37,11 @@
         opacity: 0;
     }
 }
+/* SOLUTION5 */
+
+.ex-5-square:hover {
+
+    width: 80px;
+    height: 80px;
+    transition: linear 1s;
+}
