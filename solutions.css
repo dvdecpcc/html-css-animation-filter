@@ -83,11 +83,10 @@
 /* SOLUTION8 */
 
 .ex-8-img {
-    animation-name: filters;
-    animation-duration: 3s;
-}
-
-@keyframes filters {
+    animation-name: filters2;
+        animation-duration: 3s;
+    }
+@keyframes filters2 {
     0% {
         filter: grayscale(0%);
         filter: brightness(0%);
@@ -104,5 +103,37 @@
         filter: grayscale(100%);
         filter: brightness(100%);
         border-radius: 30%;
+
+    }
+    
+}
+
+/* SOLUTION9 */
+
+.ex-9-img {
+    animation-name: filters3;
+    animation-duration: 3s
+}
+
+@keyframes filters3 {
+    0% {
+        filter: saturate(0%);
+        filter: brightness(0%);
+        border-radius: 0%;
+        transform: scale(50%);
+    }
+
+    50% {
+        filter: saturate(50%);
+        filter: brightness(50%);
+        border-radius: 15%;
+        transform: scale(75%);
+    }
+
+    100 {
+        filter: saturate(100%);
+        filter: brightness(100%);
+        border-radius: 30%;
+        transform: scale(100%);
     }
 }
