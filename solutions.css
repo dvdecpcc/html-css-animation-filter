@@ -55,5 +55,29 @@
 /* SOLUTION6 */
 .ex-6-img:hover {
     filter: grayscale(100%);
-    transition: linear 1s;
 }
+
+/* SOLUTION7 */
+
+.ex-7-img {
+    animation-name: filters;
+    animation-duration: 3s;
+}
+
+@keyframes filters {
+    0% {
+        filter: grayscale(0%);
+        filter: blur(0%);
+    }
+
+    50% {
+        filter: grayscale(50%);
+        filter: blur(50%);
+    }
+
+    100 {
+        filter: grayscale(100%);
+        filter: blur(100%);
+    }
+}
+/*  */
