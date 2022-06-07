@@ -137,3 +137,20 @@
         transform: scale(100%);
     }
 }
+
+/* SOLUTION10 */
+
+.ex-10-icon {
+    animation-name: circle;
+    animation-duration: 5s;
+}
+
+@keyframes circle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
