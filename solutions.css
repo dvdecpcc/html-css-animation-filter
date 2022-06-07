@@ -192,3 +192,78 @@
         transform: rotate(30deg);
     }
 }
+/* SOLUTION13 */
+
+.ex-13-button .ex-13-top-white {
+    animation-name: button-move-1;
+    animation-duration: 3s;
+}
+
+@keyframes button-move-1 {
+
+    25% {
+        top: -10px;
+        right: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    50% {
+        right: 100%;
+        bottom: -10px;
+        left: 0;
+        top: 0;
+    }
+
+    75% {
+        left: 100%;
+        bottom: -10px;
+        right: 0;
+        top: 0;
+
+    }
+
+    100% {
+        top: -10px;
+        left: 100%;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.ex-13-button .ex-13-bottom-white {
+    animation-name: button-move-2;
+    animation-duration: 3s;
+}
+
+@keyframes button-move-2 {
+
+
+    25% {
+        left: 100%;
+        bottom: -30px;
+        top: 0;
+        right: 0;
+    }
+
+    50% {
+        top: -30px;
+        left: 100%;
+        bottom: 0;
+        right: 0;
+    }
+
+    75% {
+        right: 100%;
+        top: -10px;
+        left: 0;
+        bottom: 0;
+    }
+
+    100% {
+        bottom: -30px;
+        right: 100%;
+        top: 0;
+        right: 0;
+    }
+}
