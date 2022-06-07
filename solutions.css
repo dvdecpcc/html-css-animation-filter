@@ -4,3 +4,9 @@
     background-color: red;
     transition: linear 1s;
 }
+/* SOLUTION2 */
+
+.ex-2-square:active {
+    width: 450px;
+    transition: linear 3s;
+}
